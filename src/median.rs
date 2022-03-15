@@ -9,7 +9,7 @@ pub fn median( mut a:vec<f32>) -> Option<f32>{
     //Todo sort
     let n_elements = a.len();
     let middle = n_elements/2;
-    //case2. when list of number is odd
+    //case2. when list of number is odd.
     //case3. when list of number is even
     let med = if n_elements%2 ==0 {
         //even
